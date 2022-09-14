@@ -2,17 +2,18 @@
 
 number1 = int(input('enter the first number: '))
 number2 = int(input('enter the second number: '))
+number3 = int(input('enter the third number: '))
 Sum = number1 + number2
 minus = number1 - number2
 multiply = number1 * number2
 power = number1**number2
 divide = number1/number2
-print(number1,' + ',number2,' = ',Sum)
-print(number1,' - ',number2,' = ',minus)
-print(number1,'* ',number2,' = ',multiply)
-print(number1,' ** ', number2,' is:' ,power)
+print(number1,' + ',number2,'+ ',number3,'= ',Sum + number3)
+print(number1,' - ',number2,'- ',number3,'= ',minus-number3)
+print(number1,' * ',number2,'* ',number3,'= ',multiply*number3)
+print(number1,' ** ', number2,'** ',number3,'is:',power**number3)
 print(number1,' / ',number2,' = ',divide)
-
+print(divide,' / ',number3,' = ',divide/number3)
 
 
 
